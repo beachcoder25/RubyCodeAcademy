@@ -17,5 +17,5 @@ city = gets.chomp.capitalize!
 print "What state (Abbreviated)? "
 state = gets.chomp.upcase!
 
-# String interpolation, like a printf in Java
+# String interpolation, like a printf statement in Java
 puts "Your name is #{first_name} #{last_name} and you are from #{city} #{state} "
