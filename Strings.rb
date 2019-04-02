@@ -36,3 +36,11 @@ puts "Lower".downcase
 This is more than
 One line
 =end
+
+
+# Chaining String methods
+
+puts name = "Ralph".downcase.reverse.upcase
+
+# O:
+# HPLAR
