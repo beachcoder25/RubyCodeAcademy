@@ -19,10 +19,13 @@ user_input = gets.chomp.downcase! # ! permanently alters variable (in-place)
 # .include? evaluates to T or F
 
 if user_input.include? "s"
-  puts user_input.gsub!(/s/, "th")
+  user_input.gsub!(/s/, "th")
+  puts "Modified string #{user_input}"
 else
   puts "The user didn't enter an 's'"
 end
+
+
 
 ##############################################################################
 
