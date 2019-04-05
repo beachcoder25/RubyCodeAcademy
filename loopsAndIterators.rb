@@ -139,3 +139,7 @@ loop do
   print "Ruby!"
   break if i == 30
 end
+
+# Alternatively using .times
+
+30.times { print "Ruby!" }
