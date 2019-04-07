@@ -139,4 +139,24 @@ books.sort do |first, second|
  
  #############################################
 
- 
+ # Sorting with control flow
+
+ # rev defaults to false if only 1 argument is entered
+
+def alphabetize(arr, rev = false)
+    arr.sort!
+    
+    if rev == true
+      arr.reverse!
+    else
+      arr
+    end
+    return arr
+  end
+  
+  numbers = [2,3,1000000]
+  
+  puts alphabetize(numbers)
+
+  #Output
+  # [2, 3, 1000000]
